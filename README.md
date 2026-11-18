@@ -8,7 +8,7 @@ This repo is **commentary and independent reproduction** of an already-public, a
 
 | File | Description |
 |---|---|
-| [`writeup.md`](./writeup.md) | Full write-up: root-cause explanation in my own words, why exploitation is non-trivial despite the high CVSS, my own PoC run, and takeaways |
+| [`writeup.md`](./Java4Shell-writeup.md) | Full write-up: root-cause explanation in my own words, why exploitation is non-trivial despite the high CVSS, my own PoC run, and takeaways |
 | [`Base64Trigger.java`](./Base64Trigger.java) | Calif.io's published, safe, self-contained PoC — decodes malformed input into an oversized 4096-byte buffer so no real memory is corrupted; just demonstrates the out-of-bounds masked write |
 
 ## TL;DR
